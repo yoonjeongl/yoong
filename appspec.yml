@@ -1,0 +1,20 @@
+
+version: 0.1
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-northeast-2:314757280827:task-definition/YJTask:3"
+        LoadBalancerInfo:
+          ContainerName: "yoonjung"
+          ContainerPort: 80
+        # Optional properties
+        PlatformVersion: "LATEST"
+        NetworkConfiguration:
+          AwsvpcConfiguration:
+            Subnets: ["subnet-ea8f5e83", "subnet-16c2d35c"]
+            SecurityGroups:
+              [
+                "sg-05e39fe7cc70462fd",
+              ]
+            AssignPublicIp: "ENABLED"
