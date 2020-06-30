@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "yoonjung",
-      "image": "314757280827.dkr.ecr.ap-northeast-2.amazonaws.com/yoonjung",
+      "image": "421835937675.dkr.ecr.ap-northeast-2.amazonaws.com/yoonjung",
       "essential": true,
       "portMappings": [
         {
