@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-2:314757280827:task-definition/YJTask:3"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-2:421835937675:task-definition/YJTask:3"
         LoadBalancerInfo:
           ContainerName: "yoonjung"
           ContainerPort: 80
@@ -12,9 +12,9 @@ Resources:
         PlatformVersion: "LATEST"
         NetworkConfiguration:
           AwsvpcConfiguration:
-            Subnets: ["subnet-ea8f5e83", "subnet-16c2d35c"]
+            Subnets: ["subnet-986e38d4"]
             SecurityGroups:
               [
-                "sg-05e39fe7cc70462fd",
+                "sg-055bf569ee1bc9cde",
               ]
             AssignPublicIp: "ENABLED"
