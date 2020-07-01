@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "arn:aws:iam::314757280827:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::421835937675:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "yoonjung",
