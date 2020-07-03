@@ -1,6 +1,6 @@
 
 FROM ubuntu:18.04
-MAINTAINER  JBJ
+MAINTAINER LYJ
 RUN apt-get -y dist-upgrade
 RUN apt-get -y upgrade
 RUN apt-get -y update
