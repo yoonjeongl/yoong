@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-2:421835937675:task-definition/YJTask:3"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-2:421835937675:task-definition/YJTask:4"
         LoadBalancerInfo:
           ContainerName: "yoonjung"
           ContainerPort: 80
