@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "yoonjung",
-      "image": "421835937675.dkr.ecr.ap-northeast-2.amazonaws.com/yoonjung",
+      "image": "421835937675.dkr.ecr.ap-northeast-2.amazonaws.com/yoonjung:latest",
       "essential": true,
       "portMappings": [
         {
@@ -18,5 +18,5 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "family": "yjTask"
+  "family": "yoonjung"
 }
